@@ -4,7 +4,7 @@ The Audit Tool is a Python-based tool that can evaluate the compliance of Azure 
 
 ## Components
 
-![image](https://user-images.githubusercontent.com/74933380/228666089-fbfe40d2-cfe9-4e0c-8533-2bab46f4dc0d.png)
+![C4-final-Page-2](https://user-images.githubusercontent.com/74933380/228666251-24cd3424-91e4-4ce6-bf51-56575766badd.png)
 
 
 The following is a brief description of each component:
