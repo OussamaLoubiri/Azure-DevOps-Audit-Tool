@@ -1,6 +1,6 @@
 # Audit Tool Architecture
 
-The Audit Tool is a Python-based tool that can evaluate the compliance of Azure DevOps projects and Azure resources to specific policies. It consists of six Python files, each responsible for a specific functionality. 
+This Audit Tool is a Python-based tool that can evaluate the compliance of Azure DevOps projects and Azure resources to specific policies. It consists of six Python files, each responsible for a specific functionality. 
 
 ## Components
 
