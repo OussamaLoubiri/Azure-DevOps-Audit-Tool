@@ -1,9 +1,9 @@
 import os
 import git
 
-REPO_URL = f"https://dev.azure.com/SES-Techcom/AVOBPADO/_git/audit-tool-wiki"
+REPO_URL = f"https://dev.azure.com/Organization-name/AVOBPADO/_git/audit-tool-wiki"
 LOCAL_PATH = "audit_tool_wiki"
-FILE_NAME = 'wiki/SES_Projects.md'
+FILE_NAME = 'wiki/Project_Report.md'
 
 def clone_or_update_repo():
     if not os.path.exists(LOCAL_PATH):
@@ -24,7 +24,7 @@ def commit_and_push_changes(repo):
     repo.index.add(FILE_NAME)
 
     # Committing the changes to the repository
-    repo.index.commit("Added SES ADO Markdown table Report")
+    repo.index.commit("Added ADO Markdown table Report")
 
     # Pushing the changes to the remote repository
     origin = repo.remote(name='origin')
