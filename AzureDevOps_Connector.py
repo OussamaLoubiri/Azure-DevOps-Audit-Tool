@@ -1,7 +1,7 @@
 import requests
 from collections import defaultdict
 
-AZURE_DEVOPS_ORG = "SES-Techcom"
+AZURE_DEVOPS_ORG = "Organization Name"
 AZURE_DEVOPS_AUTH = ("", "xriw6ah6xn6kbtouyt7jq6yvebq345hpc2oonwokhw7prkbulnuq")
 
 def get_projects():
